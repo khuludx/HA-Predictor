@@ -53,7 +53,3 @@ This project aims to analyze heart-related health data and develop a machine lea
 
 ## Results
 The project explores key risk factors for heart attacks and builds a predictive model with insights visualized in the included images.
-
-## Contributions
-Feel free to contribute by submitting **issues** or **pull requests**.
-
