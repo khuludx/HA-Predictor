@@ -7,8 +7,17 @@ This project aims to analyze heart-related health data and develop a machine lea
 - **`Heart_Attack_Prediction_Project.ipynb`**: Jupyter Notebook containing data analysis, preprocessing, model training, and evaluation.
 - **`heart.csv`**: The original dataset used for training and testing.
 - **`processed_data.csv`**: Preprocessed dataset after feature selection and cleaning.
-- **`image1.png`, `image2.png`, `image3.png`**: Visualizations generated during data analysis.
+- **`imag1.png`, `image2.png`, `image3.png`**: Visualizations generated during data analysis.
 
+## Visualizations
+### Feature Distributions
+![Feature Distributions](imag1.png)
+
+### Heart Disease Distribution by Gender
+![Heart Disease by Gender](image2.png)
+
+### Gender Distribution in the Dataset
+![Gender Distribution](image3.png)
 
 ## Steps in the Notebook
 1. **Data Loading**: Importing the dataset and understanding its structure.
@@ -23,3 +32,28 @@ This project aims to analyze heart-related health data and develop a machine lea
    ```bash
    git clone https://github.com/yourusername/Heart_Attack_Prediction.git
    cd Heart_Attack_Prediction
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook Heart_Attack_Prediction_Project.ipynb
+   ```
+
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Results
+The project explores key risk factors for heart attacks and builds a predictive model with insights visualized in the included images.
+
+## Contributions
+Feel free to contribute by submitting **issues** or **pull requests**.
+
